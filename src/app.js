@@ -122,16 +122,5 @@ function actualStateArray(arr) {
 
 //Mostrar cartas ordenadas
 sortButton.addEventListener("click", () => {
-  for (let i = 0; i < arrayNumbers.length; i++) {
-    if (arrayNumbers[i] === "A") {
-      arrayNumbers[i] = 1;
-    } else if (arrayNumbers[i] === "J") {
-      arrayNumbers[i] = 11;
-    } else if (arrayNumbers[i] === "Q") {
-      arrayNumbers[i] = 12;
-    } else if (arrayNumbers[i] === "K") {
-      arrayNumbers[i] = 13;
-    }
-  }
   sortingCards(originalCards);
 });
